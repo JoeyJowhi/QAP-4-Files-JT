@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.mainbox {
+  width: 1000px;
+  height: 1000px;
+  background-color: white;
+  border: 3px solid gray;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px;
+}
+  .receipttable {
+    width: 315px;
+    margin: auto;
+  }
+  .receipttable td {
+    font-size: 10pt;
+  }
+  .receipttable .righttext{
+    text-align: right;
+  }
+  .receipttable .centertext{
+    text-align: center;
+  }
+  .receipttable .lefttext{
+    text-align: left;
+  }
+  .receipttable #noleft {
+    border-collapse: separate;
+    border-left: none;
+  }
+  .receipttable #noright {
+    border-collapse: separate;
+    border-right: none;
+  }
